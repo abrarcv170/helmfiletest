@@ -1,0 +1,8 @@
+releases:
+    - name: test2048
+      chart: dao-2048/dao-2048
+      values:
+         replicaCount: 1
+repositories:
+- name: dao-2048
+  url: http://daocloud.github.io/dao-2048/
