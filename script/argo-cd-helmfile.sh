@@ -164,7 +164,7 @@ export HOME="${HELM_HOME}"
 echoerr "$(${helm} version --short --client)"
 echoerr "$(${helmfile} --version)"
 echoerr "$(pwd)"
-echoerr "$(pwd)"
+echoerr "$(ls)"
 
 case $phase in
   "init")
