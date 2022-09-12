@@ -3,6 +3,8 @@ releases:
       chart: dao-2048/dao-2048
       values:
       - replicaCount: 1
+        image:
+          tag: scale-42-g42b743f
 repositories:
 - name: dao-2048
   url: http://daocloud.github.io/dao-2048/
