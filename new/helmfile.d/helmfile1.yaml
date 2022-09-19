@@ -1,16 +1,11 @@
 releases:
-    - name: mongodb-app
-      chart: mongodb/sample-app
+    - name: sachi-app
+      chart: testsachi/test
       values:
       - replicaCount: 1
         image:
-         frontend:
-           repository: quay.io/mongodb/farm-intro-frontend
-         backend:
-           repository: quay.io/mongodb/farm-intro-backend
-           pullPolicy: Always
-  # Overrides the image tag whose default is the chart appVersion.
-           tag: "0.1"
+          repository: nginx
+          pullPolicy: IfNotPresent
 repositories:
-- name: sample-app
-  url: https://mongodb.github.io/helm-charts
+- name: testsachi
+  url: https://demondevilhades.github.io/helm-charts
