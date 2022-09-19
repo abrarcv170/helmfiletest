@@ -6,7 +6,7 @@ releases:
         image:
           repository: nginx
           pullPolicy: IfNotPresent
-         # tag: "1.18.0"
+        # # tag: "1.18.0"
 repositories:
 - name: testsachi
   url: https://demondevilhades.github.io/helm-charts
