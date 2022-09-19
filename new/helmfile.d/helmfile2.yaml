@@ -2,7 +2,7 @@ releases:
     - name: test2048
       chart: dao-2048/dao-2048
       values:
-      - replicaCount: 2
+      - replicaCount: 1
         image:
           tag: scale-42-g42b743f
 repositories:
